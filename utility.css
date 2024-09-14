@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+    
+}
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+.itemcentre{
+    align-items: center;
+}
+.justify{
+    justify-content: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color:#121212;
+}
+.rounded{
+    border-radius: 10px;
+}
+.m-1{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.p-1{
+    padding: 10px;
+    /* margin-top: 13px; */
+}
+
+
+
+
+
+/* For WebKit based browsers */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* For Firefox */
+/* The scrollbar is not customizable in Firefox using CSS only */
+/* You can use JavaScript libraries like SimpleBar to customize scrollbars in Firefox */
